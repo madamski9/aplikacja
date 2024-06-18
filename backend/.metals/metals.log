@@ -1,0 +1,63 @@
+2024.06.18 23:47:15 INFO  Started: Metals version 1.3.1 in folders '/Users/macciek/studia/scala/portfolio/aplikacja/backend' for client Visual Studio Code 1.90.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18c49c]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@228c4578]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18c49c]
+2024.06.18 23:47:15 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.18 23:47:16 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:17 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.06.18 23:47:18 WARN  no build target for: /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt
+2024.06.18 23:47:18 WARN  no build target for: /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt
+2024.06.18 23:47:18 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:18 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:20 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:21 INFO  [info] welcome to sbt 1.10.0 (Oracle Corporation Java 17)
+2024.06.18 23:47:23 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:28 INFO  [info] loading settings for project backend-build-build from metals.sbt ...
+2024.06.18 23:47:30 INFO  [info] loading project definition from /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project
+2024.06.18 23:47:33 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:36 INFO  [info] loading settings for project backend-build from metals.sbt ...
+2024.06.18 23:47:36 INFO  [info] loading project definition from /Users/macciek/studia/scala/portfolio/aplikacja/backend/project
+2024.06.18 23:47:37 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:46 INFO  [success] Generated .bloop/backend-build.json
+2024.06.18 23:47:46 INFO  [info] compiling 1 Scala source to /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/target/scala-2.12/sbt-1.0/classes ...
+2024.06.18 23:47:46 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.19. Compiling...
+2024.06.18 23:47:54 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:47:54 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:48:02 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:48:03 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:48:03 WARN  Could not find semantic tokens for: file:///Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt
+2024.06.18 23:48:05 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:48:05 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.18 23:48:05 WARN  Could not find semantic tokens for: file:///Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt
+2024.06.18 23:48:22 INFO  [info]   Compilation completed in 35.668s.
+2024.06.18 23:48:26 INFO  [info] done compiling
+2024.06.18 23:48:27 INFO  [success] Total time: 51 s, completed 18 cze 2024, 23:48:27
+2024.06.18 23:48:35 INFO  [info] loading settings for project root from build.sbt ...
+2024.06.18 23:48:35 INFO  [info] set current project to backend (in build file:/Users/macciek/studia/scala/portfolio/aplikacja/backend/)
+2024.06.18 23:48:39 INFO  [success] Generated .bloop/root.json
+2024.06.18 23:48:39 INFO  [success] Generated .bloop/root-test.json
+2024.06.18 23:48:39 INFO  [success] Total time: 3 s, completed 18 cze 2024, 23:48:39
+2024.06.18 23:48:39 INFO  time: ran 'sbt bloopInstall' in 1m22s
+2024.06.18 23:48:39 INFO  Attempting to connect to the build server...
+2024.06.18 23:48:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/macciek/studia/scala/portfolio/aplikacja/backend/.metals/bsp.trace.json or /Users/macciek/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.18 23:48:42 INFO  Attempting to connect to the build server...
+2024.06.18 23:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/.metals/bsp.trace.json or /Users/macciek/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.18 23:48:42 INFO  time: Connected to build server in 2.42s
+2024.06.18 23:48:42 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.18 23:48:43 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.18 23:48:49 INFO  time: indexed workspace in 6.77s
+2024.06.18 23:48:49 INFO  compiling root (1 scala source)
+2024.06.18 23:48:54 INFO  time: compiled root in 5.32s
+2024.06.18 23:48:54 INFO  compiling root-test (1 scala source)
+2024.06.18 23:48:54 INFO  time: compiled root-test in 0.96s
+2024.06.18 23:48:55 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.18 23:48:57 INFO  no build target found for /Users/macciek/studia/scala/portfolio/aplikacja/backend/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.18 23:48:57 INFO  time: code lens generation in 1.98s
+2024.06.18 23:48:57 INFO  time: code lens generation in 1.98s
+2024.06.18 23:48:57 INFO  time: code lens generation in 2s
+2024.06.18 23:49:18 INFO  compiling backend-build (1 scala source)
+2024.06.18 23:49:18 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.19. Compiling...
+2024.06.18 23:49:36 INFO  Compilation completed in 18.612s.
+2024.06.18 23:49:40 INFO  time: compiled backend-build in 22s
