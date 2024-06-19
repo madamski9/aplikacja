@@ -1,0 +1,565 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/Users/macciek/studia/scala/portfolio/aplikacja/backend",
+        "workspaceDir": "/Users/macciek/studia/scala/portfolio/aplikacja/backend",
+        "sources": [
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala",
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala-3",
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/java",
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/target/scala-3.3.3/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http_3/10.6.3/akka-http_3-10.6.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_3/10.6.3/akka-http-spray-json_3-10.6.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.3/akka-actor-typed_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-stream_3/2.9.3/akka-stream_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-core_3/10.6.3/akka-http-core_3-10.6.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-pki_3/2.9.3/akka-pki_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_3/1.3.6/spray-json_3-1.3.6.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.3/akka-actor_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.3/akka-slf4j_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-protobuf-v3_3/2.9.3/akka-protobuf-v3_3-2.9.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-parsing_3/10.6.3/akka-parsing_3-10.6.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/hierynomus/asn-one/0.6.0/asn-one-0.6.0.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar",
+            "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.jar"
+        ],
+        "out": "/Users/macciek/studia/scala/portfolio/aplikacja/backend/.bloop/root",
+        "classesDir": "/Users/macciek/studia/scala/portfolio/aplikacja/backend/.bloop/root/scala-3/classes",
+        "resources": [
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/resources",
+            "/Users/macciek/studia/scala/portfolio/aplikacja/backend/target/scala-3.3.3/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.3.3",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.3/scala3-compiler_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.3/scala3-interfaces-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.3/tasty-core_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.5.0-scala-1/scala-asm-9.5.0-scala-1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.9.3/compiler-interface-1.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.9.2/util-interface-1.9.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.3.3/scaladoc_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.3.3/scala3-tasty-inspector_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.62.2/flexmark-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-ast/0.62.2/flexmark-util-ast-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-data/0.62.2/flexmark-util-data-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-html/0.62.2/flexmark-util-html-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.62.2/flexmark-ext-anchorlink-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.62.2/flexmark-ext-autolink-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.62.2/flexmark-ext-emoji-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.62.2/flexmark-ext-gfm-strikethrough-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.62.2/flexmark-ext-gfm-tasklist-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.62.2/flexmark-ext-wikilink-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.62.2/flexmark-ext-tables-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.62.2/flexmark-ext-yaml-front-matter-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.1/jackson-dataformat-yaml-2.15.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-builder/0.62.2/flexmark-util-builder-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-collection/0.62.2/flexmark-util-collection-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-dependency/0.62.2/flexmark-util-dependency-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-format/0.62.2/flexmark-util-format-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-misc/0.62.2/flexmark-util-misc-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-sequence/0.62.2/flexmark-util-sequence-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-visitor/0.62.2/flexmark-util-visitor-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.62.2/flexmark-util-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.62.2/flexmark-jira-converter-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util-options/0.62.2/flexmark-util-options-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.62.2/flexmark-ext-ins-0.62.2.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.62.2/flexmark-ext-superscript-0.62.2.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/macciek/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/macciek/studia/scala/portfolio/aplikacja/backend"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "/Users/macciek/.jabba/jdk/openjdk@1.17.0/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/macciek/studia/scala/portfolio/aplikacja/backend"
+                ]
+            },
+            "classpath": [
+                "/Users/macciek/studia/scala/portfolio/aplikacja/backend/.bloop/root/scala-3/classes",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http_3/10.6.3/akka-http_3-10.6.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_3/10.6.3/akka-http-spray-json_3-10.6.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.3/akka-actor-typed_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-stream_3/2.9.3/akka-stream_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-core_3/10.6.3/akka-http-core_3-10.6.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-pki_3/2.9.3/akka-pki_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_3/1.3.6/spray-json_3-1.3.6.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.3/akka-actor_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.3/akka-slf4j_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-protobuf-v3_3/2.9.3/akka-protobuf-v3_3-2.9.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-parsing_3/10.6.3/akka-parsing_3-10.6.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/hierynomus/asn-one/0.6.0/asn-one-0.6.0.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar",
+                "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.3.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http_3",
+                    "version": "10.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http_3/10.6.3/akka-http_3-10.6.3.jar"
+                        },
+                        {
+                            "name": "akka-http_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http_3/10.6.3/akka-http_3-10.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-spray-json_3",
+                    "version": "10.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-spray-json_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_3/10.6.3/akka-http-spray-json_3-10.6.3.jar"
+                        },
+                        {
+                            "name": "akka-http-spray-json_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-spray-json_3/10.6.3/akka-http-spray-json_3-10.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor-typed_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor-typed_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.3/akka-actor-typed_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor-typed_3/2.9.3/akka-actor-typed_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-stream_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-stream_3/2.9.3/akka-stream_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-stream_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-stream_3/2.9.3/akka-stream_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_3",
+                    "version": "10.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-core_3/10.6.3/akka-http-core_3-10.6.3.jar"
+                        },
+                        {
+                            "name": "akka-http-core_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-http-core_3/10.6.3/akka-http-core_3-10.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-pki_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-pki_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-pki_3/2.9.3/akka-pki_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-pki_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-pki_3/2.9.3/akka-pki_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.spray",
+                    "name": "spray-json_3",
+                    "version": "1.3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spray-json_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_3/1.3.6/spray-json_3-1.3.6.jar"
+                        },
+                        {
+                            "name": "spray-json_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_3/1.3.6/spray-json_3-1.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.3/akka-actor_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-actor_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor_3/2.9.3/akka-actor_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.3/akka-slf4j_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-slf4j_3/2.9.3/akka-slf4j_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_3",
+                    "version": "2.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-protobuf-v3_3/2.9.3/akka-protobuf-v3_3-2.9.3.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-protobuf-v3_3/2.9.3/akka-protobuf-v3_3-2.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-parsing_3",
+                    "version": "10.6.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-parsing_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-parsing_3/10.6.3/akka-parsing_3-10.6.3.jar"
+                        },
+                        {
+                            "name": "akka-parsing_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-parsing_3/10.6.3/akka-parsing_3-10.6.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.hierynomus",
+                    "name": "asn-one",
+                    "version": "0.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asn-one",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/hierynomus/asn-one/0.6.0/asn-one-0.6.0.jar"
+                        },
+                        {
+                            "name": "asn-one",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/hierynomus/asn-one/0.6.0/asn-one-0.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.3/config-1.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_3",
+                    "version": "1.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_3",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_3",
+                            "classifier": "sources",
+                            "path": "/Users/macciek/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.2/scala-java8-compat_3-1.0.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
