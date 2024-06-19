@@ -40,22 +40,25 @@ class HashingAlghoritm extends Actor with ActorLogging {
 	}
 }
 
-object Main extends App {
-  implicit val system: ActorSystem = ActorSystem("my-scala-microservice")
-  implicit val executionContext: ExecutionContextExecutor = system.dispatcher
-  implicit val materializer: Materializer = Materializer(system)
-  implicit val timeout: Timeout = Timeout(5.seconds)
+@main
+def mainProg: Unit = {
+	implicit val system: ActorSystem = ActorSystem("my-scala-microservice")
+	implicit val executionContext: ExecutionContextExecutor = system.dispatcher
+	implicit val materializer: Materializer = Materializer(system)
+	implicit val timeout: Timeout = Timeout(2.seconds)
 
-  val hashActor = system.actorOf(Props[HashActor](), "hashActor")
+	val hashActor = system.actorOf(Props[HashActor](), "hashActor")
 
-  val route =
-    path("login") {
-      get {
-        val responseFuture = ask(hashActor, UserLogin("chuj123"))(timeout)
-        complete(responseFuture.mapTo[String])
-      }
-    }
-
-  Http().newServerAt("localhost", 8080).bindFlow(route)
-  println(s"Server online at http://localhost:8080/")
+	val route =
+		path("login") {
+			get {
+				parameters("login") { login =>
+					val responseFuture = ask(hashActor, UserLogin(login))(timeout).mapTo[String]
+					complete(responseFuture)
+				}
+			}
+		}
+	
+	Http().newServerAt("localhost", 8080).bindFlow(route)
+	println(s"Server online at http://localhost:8080/")
 }
