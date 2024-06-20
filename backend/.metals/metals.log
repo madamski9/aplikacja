@@ -2975,3 +2975,24 @@ WARNING: Unmatched cancel notification for request id 31428
 2024.06.20 20:27:18 INFO  time: compiled root in 1.24s
 2024.06.20 20:27:23 INFO  compiling root (1 scala source)
 2024.06.20 20:27:23 INFO  time: compiled root in 0.8s
+2024.06.20 21:05:09 INFO  compiling root (1 scala source)
+2024.06.20 21:05:11 INFO  time: compiled root in 1.72s
+2024.06.20 21:05:11 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:37 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:37 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:38 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:39 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:39 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:40 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 21:05:41 INFO  compiling root (1 scala source)
+2024.06.20 21:05:41 INFO  time: compiled root in 0.82s
+2024.06.20 23:10:04 INFO  compiling root (1 scala source)
+2024.06.20 23:10:06 INFO  time: compiled root in 1.82s
+2024.06.20 23:10:13 INFO  compiling root (1 scala source)
+2024.06.20 23:10:14 INFO  time: compiled root in 0.96s
+2024.06.20 23:10:43 INFO  compiling root (1 scala source)
+2024.06.20 23:10:43 INFO  time: compiled root in 0.86s
+2024.06.20 23:25:46 INFO  compiling root (1 scala source)
+2024.06.20 23:25:48 INFO  time: compiled root in 2.47s
+2024.06.20 23:31:41 INFO  compiling root (1 scala source)
+2024.06.20 23:31:43 INFO  time: compiled root in 1.57s

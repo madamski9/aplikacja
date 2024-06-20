@@ -37,7 +37,7 @@ export default function App() {
         setIsLoggedIn(true)
       })
       .catch(error => {
-        console.error("Login error:", error)
+        //console.error("Login error:", error)
         setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
       })
   }

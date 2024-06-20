@@ -4,8 +4,8 @@ import axios from 'axios'
 import styles from './stylesLogin.js'
 
 const Login = ({ onLogin }) => {
-    const [ email, setEmail ] = useState(' ')
-    const [ password, setPassword ] = useState(' ')
+    const [ email, setEmail ] = useState('')
+    const [ password, setPassword ] = useState('')
 
     const handleRegister = () => {
         if (!email || !password) {
@@ -48,10 +48,10 @@ const Login = ({ onLogin }) => {
                 onLogin(email, password)
             })
             .catch(error => {
-                console.error("Login error:", error)
+                //console.error("Login error:", error)
                 console.log("chuj error")
                 Alert.alert("Logowanie nie powiodlo sie, zarejestruj sie")
-                setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
+                //setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
             })
     }
 
