@@ -3,12 +3,14 @@ import { Text, Image, TouchableOpacity, View, Alert } from 'react-native';
 import React, { useState } from 'react';
 import styles from './styles.js'
 import Login from './screens/loginScreen'; 
+import axios from 'axios'
 
 
 export default function App() {
   const [ hover, setHover ] = useState(false)
   const [ isLoggedIn, setIsLoggedIn ] = useState(false)
-
+  const [ error, setError ] = useState(null)
+ 
   const click = () => {
     if (hover) {
       Alert.alert('jd')
@@ -27,8 +29,17 @@ export default function App() {
     }
   }
 
-  const handleLogin = () => {
-    setIsLoggedIn(true)
+  const handleLogin = (email, password) => {
+    axios.post("http://192.168.0.227:8080/login", { email, password })
+      .then(response => {
+        console.log(response.data)
+        console.log("doszlo tu3")
+        setIsLoggedIn(true)
+      })
+      .catch(error => {
+        console.error("Login error:", error)
+        setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
+      })
   }
 
   if (!isLoggedIn) {
