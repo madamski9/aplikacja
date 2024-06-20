@@ -19,7 +19,7 @@ const Login = ({ onLogin }) => {
             password: password
         }
 
-        axios.post("http://192.168.0.227:8080/register", registrationData)
+        axios.post("http://www.maplikacjaciek.xyz:8080/register", registrationData)
             .then(result => {
                 console.log(result.data)
                 console.log("udalo sie zarejestrowac")
@@ -41,7 +41,7 @@ const Login = ({ onLogin }) => {
             password: password
         }
         console.log("doszlo tu i chuj")
-        axios.post("http://192.168.0.227:8080/login", loginData)
+        axios.post("http://www.maplikacjaciek.xyz:8080/login", loginData)
             .then(response => {
                 console.log(response.data)
                 console.log("udalo sie kurwa")
