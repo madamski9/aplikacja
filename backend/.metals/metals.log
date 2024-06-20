@@ -2831,3 +2831,147 @@ WARNING: Unmatched cancel notification for request id 28433
 2024.06.20 19:01:20 INFO  time: compiled root in 0.46s
 2024.06.20 19:01:20 INFO  compiling root (1 scala source)
 2024.06.20 19:01:21 INFO  time: compiled root in 1.47s
+2024.06.20 19:04:08 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:10 INFO  time: compiled root in 2.07s
+2024.06.20 19:04:17 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:17 INFO  time: compiled root in 0.67s
+2024.06.20 19:04:17 INFO  compiling root (1 scala source)
+2024.06.20 19:04:18 INFO  time: compiled root in 1.01s
+2024.06.20 19:04:25 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:26 INFO  time: compiled root in 1.05s
+2024.06.20 19:04:29 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:29 INFO  time: compiled root in 0.65s
+2024.06.20 19:04:34 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:34 INFO  time: compiled root in 0.99s
+2024.06.20 19:04:37 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:37 INFO  time: compiled root in 0.61s
+2024.06.20 19:04:41 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:41 INFO  time: compiled root in 0.69s
+2024.06.20 19:04:46 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:46 INFO  time: compiled root in 0.53s
+2024.06.20 19:04:50 INFO  compiling root (2 scala sources)
+2024.06.20 19:04:50 INFO  time: compiled root in 0.4s
+2024.06.20 19:05:01 INFO  compiling root (2 scala sources)
+2024.06.20 19:05:01 INFO  time: compiled root in 0.55s
+2024.06.20 19:05:01 INFO  compiling root (1 scala source)
+2024.06.20 19:05:02 INFO  time: compiled root in 1.07s
+2024.06.20 19:05:06 INFO  compiling root (2 scala sources)
+2024.06.20 19:05:06 INFO  time: compiled root in 0.57s
+2024.06.20 19:05:17 INFO  compiling root (2 scala sources)
+2024.06.20 19:05:17 INFO  time: compiled root in 0.62s
+2024.06.20 19:05:17 INFO  compiling root (1 scala source)
+2024.06.20 19:05:19 INFO  time: compiled root in 0.96s
+2024.06.20 19:05:26 INFO  compiling root (2 scala sources)
+2024.06.20 19:05:26 INFO  time: compiled root in 0.51s
+2024.06.20 19:05:26 INFO  compiling root (1 scala source)
+2024.06.20 19:05:28 INFO  time: compiled root in 0.92s
+cze 20, 2024 7:49:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29720
+2024.06.20 19:51:11 INFO  compiling root (5 scala sources)
+2024.06.20 19:51:14 INFO  time: compiled root in 2.84s
+2024.06.20 19:51:14 INFO  compiling root (2 scala sources)
+2024.06.20 19:51:15 INFO  time: compiled root in 0.51s
+2024.06.20 19:51:15 INFO  compiling root (1 scala source)
+2024.06.20 19:51:17 INFO  time: compiled root in 1.88s
+2024.06.20 19:52:32 INFO  compiling root (5 scala sources)
+2024.06.20 19:52:32 INFO  time: compiled root in 0.55s
+2024.06.20 19:52:35 INFO  compiling root (2 scala sources)
+2024.06.20 19:52:35 INFO  time: compiled root in 0.78s
+2024.06.20 19:52:35 INFO  compiling root (1 scala source)
+2024.06.20 19:52:37 INFO  time: compiled root in 1.39s
+2024.06.20 19:55:06 INFO  compiling root (2 scala sources)
+2024.06.20 19:55:06 INFO  time: compiled root in 0.42s
+2024.06.20 19:55:19 INFO  compiling root (2 scala sources)
+2024.06.20 19:55:20 INFO  time: compiled root in 1.26s
+2024.06.20 19:55:20 INFO  compiling root (1 scala source)
+cze 20, 2024 7:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30084
+2024.06.20 19:55:22 INFO  time: compiled root in 2.07s
+2024.06.20 19:55:23 WARN  Using indexes to guess the definition of RegistrationRequest
+2024.06.20 19:55:22 INFO  compiling root (2 scala sources)
+2024.06.20 19:55:24 INFO  time: compiled root in 0.64s
+2024.06.20 19:55:24 INFO  compiling root (1 scala source)
+2024.06.20 19:55:24 INFO  time: compiled root in 0.95s
+2024.06.20 19:55:27 INFO  compiling root (2 scala sources)
+2024.06.20 19:55:27 INFO  time: compiled root in 0.62s
+2024.06.20 19:55:27 INFO  compiling root (1 scala source)
+2024.06.20 19:55:29 INFO  time: compiled root in 1.56s
+2024.06.20 19:55:31 INFO  compiling root (2 scala sources)
+2024.06.20 19:55:31 INFO  time: compiled root in 0.59s
+2024.06.20 19:55:31 INFO  compiling root (1 scala source)
+2024.06.20 19:55:33 INFO  time: compiled root in 1.29s
+2024.06.20 19:56:21 INFO  compiling root (5 scala sources)
+2024.06.20 19:56:21 INFO  time: compiled root in 0.46s
+cze 20, 2024 7:56:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30185
+2024.06.20 19:56:33 INFO  compiling root (5 scala sources)
+2024.06.20 19:56:33 INFO  time: compiled root in 0.36s
+2024.06.20 19:56:46 INFO  compiling root (5 scala sources)
+2024.06.20 19:56:46 WARN  Using indexes to guess the definition of User
+2024.06.20 19:56:46 INFO  time: compiled root in 0.44s
+2024.06.20 19:56:51 INFO  compiling root (5 scala sources)
+2024.06.20 19:56:51 INFO  time: compiled root in 0.48s
+2024.06.20 19:56:57 INFO  compiling root (5 scala sources)
+2024.06.20 19:56:57 INFO  time: compiled root in 0.41s
+cze 20, 2024 7:56:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30265
+2024.06.20 19:57:00 INFO  compiling root (5 scala sources)
+2024.06.20 19:57:00 INFO  time: compiled root in 0.35s
+2024.06.20 19:57:37 INFO  compiling root (5 scala sources)
+2024.06.20 19:57:37 INFO  time: compiled root in 0.42s
+2024.06.20 19:57:45 INFO  compiling root (5 scala sources)
+2024.06.20 19:57:45 INFO  time: compiled root in 0.44s
+2024.06.20 19:57:51 INFO  compiling root (5 scala sources)
+2024.06.20 19:57:51 INFO  time: compiled root in 0.54s
+2024.06.20 19:57:52 INFO  compiling root (5 scala sources)
+2024.06.20 19:57:52 INFO  time: compiled root in 0.35s
+2024.06.20 19:58:10 INFO  compiling root (5 scala sources)
+2024.06.20 19:58:11 INFO  time: compiled root in 1.03s
+2024.06.20 19:58:22 INFO  compiling root (1 scala source)
+2024.06.20 19:58:22 INFO  time: compiled root in 0.2s
+2024.06.20 19:59:18 INFO  compiling root (1 scala source)
+2024.06.20 19:59:18 INFO  time: compiled root in 0.13s
+2024.06.20 20:00:17 INFO  compiling root (1 scala source)
+2024.06.20 20:00:17 INFO  time: compiled root in 0.43s
+2024.06.20 20:00:32 INFO  compiling root (1 scala source)
+2024.06.20 20:00:32 INFO  time: compiled root in 0.43s
+2024.06.20 20:08:14 INFO  compiling root (1 scala source)
+2024.06.20 20:08:16 INFO  time: compiled root in 2.04s
+2024.06.20 20:12:22 INFO  compiling root (1 scala source)
+2024.06.20 20:12:23 INFO  time: compiled root in 1.52s
+cze 20, 2024 8:18:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31428
+2024.06.20 20:18:48 INFO  compiling root (1 scala source)
+2024.06.20 20:18:50 INFO  time: compiled root in 1.8s
+2024.06.20 20:20:50 INFO  compiling root (1 scala source)
+2024.06.20 20:20:50 INFO  time: compiled root in 0.76s
+2024.06.20 20:20:51 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:20:53 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:20:55 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:20:57 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:20:59 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:20:59 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:00 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:02 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:03 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:04 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:05 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:06 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:07 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:07 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:08 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:09 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:12 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:14 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.20 20:21:14 INFO  compiling root (1 scala source)
+2024.06.20 20:21:15 INFO  time: compiled root in 1.08s
+2024.06.20 20:21:28 INFO  compiling root (1 scala source)
+2024.06.20 20:21:28 INFO  time: compiled root in 0.42s
+2024.06.20 20:22:00 INFO  compiling root (1 scala source)
+2024.06.20 20:22:00 INFO  time: compiled root in 0.91s
+2024.06.20 20:26:01 INFO  compiling root (1 scala source)
+2024.06.20 20:26:02 INFO  time: compiled root in 1.33s
+2024.06.20 20:27:17 INFO  compiling root (1 scala source)
+2024.06.20 20:27:18 INFO  time: compiled root in 1.24s
+2024.06.20 20:27:23 INFO  compiling root (1 scala source)
+2024.06.20 20:27:23 INFO  time: compiled root in 0.8s

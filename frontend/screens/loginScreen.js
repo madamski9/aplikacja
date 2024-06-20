@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button } from 'react-native';
+import { View, Text, TextInput, Button, Alert } from 'react-native';
 import axios from 'axios'
 import styles from './stylesLogin.js'
 
@@ -10,7 +10,7 @@ const Login = ({ onLogin }) => {
     const handleRegister = () => {
         if (!email || !password) {
             console.log("prosze wprowadzic email i haslo")
-            alert("Proszę wprowadzić email i hasło")
+            Alert.alert("Proszę wprowadzić email i hasło")
             return
         }
 
@@ -23,6 +23,10 @@ const Login = ({ onLogin }) => {
             .then(result => {
                 console.log(result.data)
                 console.log("udalo sie zarejestrowac")
+            })
+            .catch(error => {
+                console.error("error rejestracji:", error)
+                Alert.alert("Rejestracja nie powiodla sie sprobuj ponownie.")
             })
     }
     const handleLogin = () => {
@@ -41,11 +45,12 @@ const Login = ({ onLogin }) => {
             .then(response => {
                 console.log(response.data)
                 console.log("udalo sie kurwa")
-                onLogin()
+                onLogin(email, password)
             })
             .catch(error => {
                 console.error("Login error:", error)
                 console.log("chuj error")
+                Alert.alert("Logowanie nie powiodlo sie, zarejestruj sie")
                 setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
             })
     }

@@ -28,7 +28,6 @@ case class Hash(hash: String, email: String)
 case class AuthenticationResult(success: Boolean)
 case class LoginRequest(email: String, password: String)
 case class RegistrationRequest(email: String, password: String)
-case class User(email: String)
 
 class HashActor extends Actor with ActorLogging {
 	var dataBase: Map[String, String] = Map.empty
@@ -36,6 +35,7 @@ class HashActor extends Actor with ActorLogging {
 		case UserLogin(email, password) =>
 			log.info(s"${self.path.name} received a message")
 			context.become(checkDataBase(email, password, sender()))
+			self ! UserLogin(email, password)
 		case UserRegister(email, password) =>
 			log.info(s"${self.path.name} received a register message")
 			val hashed = context.actorOf(Props[HashingAlghoritm](), "hashed")
@@ -45,19 +45,15 @@ class HashActor extends Actor with ActorLogging {
 	def receiveHash(mainProg: ActorRef): Receive = {
 		case Hash(hash, email) => 
 			log.info(s"doszlo tu hasz: ${hash}")
-			context.become(insertIntoDataBase(hash))
-			mainProg ! AuthenticationResult(success = true)
-			context.become(receive)
-	}
-	def insertIntoDataBase(hash: String): Receive = {
-		case Hash(hash, email) =>
-			val user = User(email)
+			log.info(s"Dodaje uzytkownika ${email} do bazy danych...")
 			dataBase += (email -> hash)
 			log.info("udalo sie wpisac hash i uzytkownika do bazy")
+			mainProg ! AuthenticationResult(success = true)
 			context.become(receive)
 	}
 	def checkDataBase(email: String, password: String, replyTo: ActorRef): Receive = {
 		case UserLogin(email, password) => 
+			log.info("sprawdzam czy email i haslo sa w bazie danych...")
 			dataBase.get(email) match {
 				case Some(savedHash) =>
 					val hashedPassword = hashPassword(email, password)
@@ -111,7 +107,8 @@ def mainProg: Unit = {
 					onComplete(responseFuture) {
 						case scala.util.Success(user) =>
 							println(s"udalo sie zarejestrowac uzytkownika: ${user}")
-							complete(StatusCodes.OK, s"Uzytkownik zarejestrowal sie")
+							if user.success then complete(StatusCodes.OK, s"Uzytkownik zarejestrowal sie")
+							else complete(StatusCodes.InternalServerError, s"Nie udalo sie zarejestrowac")
 						case scala.util.Failure(err) =>
 							complete(StatusCodes.InternalServerError, s"Rejestracja nie powiodla sie error: ${err.getMessage}")
 					}
@@ -129,7 +126,8 @@ def mainProg: Unit = {
 					onComplete(responseFuture) {
 						case scala.util.Success(hash) => 
 							println("wyslalo sie")
-							complete(StatusCodes.OK, s"Login successful for email: ${loginRequest.email}")
+							if hash.success then complete(StatusCodes.OK, s"Login successful for email: ${loginRequest.email}")
+							else complete(StatusCodes.Unauthorized, "Logowanie nie powiodlo sie, zarejestruj sie")
 						case scala.util.Failure(ex) =>
 							complete(StatusCodes.InternalServerError, s"error: ${ex.getMessage}")
 					}
