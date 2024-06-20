@@ -2,13 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, Image, TouchableOpacity, View, Alert } from 'react-native';
 import React, { useState } from 'react';
 import styles from './styles.js'
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import loginScreen from './screens/loginScreen'; 
+import Login from './screens/loginScreen'; 
 
 
 export default function App() {
   const [ hover, setHover ] = useState(false)
+  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
   const click = () => {
     if (hover) {
@@ -26,6 +25,14 @@ export default function App() {
     if(hover) {
       Alert.alert('jd3')
     }
+  }
+
+  const handleLogin = () => {
+    setIsLoggedIn(true)
+  }
+
+  if (!isLoggedIn) {
+    return <Login onLogin={handleLogin} />;
   }
 
   return (
