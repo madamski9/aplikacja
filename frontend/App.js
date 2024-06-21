@@ -30,7 +30,7 @@ export default function App() {
   }
 
   const handleLogin = (email, password) => {
-    axios.post("http://www.maplikacjaciek.xyz:8080/login", { email, password })
+    axios.post("http://www.maplikacjaciek.xyz:80/login", { email, password })
       .then(response => {
         console.log(response.data)
         console.log("doszlo tu3")

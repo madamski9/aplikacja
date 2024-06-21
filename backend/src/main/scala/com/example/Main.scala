@@ -135,6 +135,6 @@ def mainProg: Unit = {
 			}
 		}
 	
-	Http().newServerAt("0.0.0.0", 8080).bind(route)
-	println(s"Server online at http://www.maplikacjaciek.xyz:8080/")
+	Http().newServerAt("0.0.0.0", 80).bind(route)
+	println(s"Server online at http://www.maplikacjaciek.xyz:80/")
 } 
