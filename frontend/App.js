@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, Image, TouchableOpacity, View, Alert } from 'react-native';
+import { ScrollView, Text, Image, TouchableOpacity, View, Alert } from 'react-native';
 import React, { useState } from 'react';
 import styles from './styles.js'
 import Login from './screens/loginScreen'; 
 import axios from 'axios'
-
+import Header from './header.js'
 
 export default function App() {
   const [ hover, setHover ] = useState(false)
@@ -30,7 +30,7 @@ export default function App() {
   }
 
   const handleLogin = (email, password) => {
-    axios.post("http://www.maplikacjaciek.xyz:80/login", { email, password })
+    axios.post("http://ip:8080/login", { email, password })
       .then(response => {
         console.log(response.data)
         console.log("doszlo tu3")
@@ -48,46 +48,115 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity 
-        style={[styles.button, styles.buttonHover]}
-        onPressIn={() => setHover(true)}
-        onPressOut={() => setHover(false)}
-        onPress={click}>
-        <Image
-          style={styles.clothStore1}
-          source={require("./assets/clothStore1.png")}
-        />
-        <Text style={styles.testUnderImg}>
-          S K L E P 1
-        </Text>
-      </TouchableOpacity>
-      <TouchableOpacity 
-        style={[styles.button2, styles.buttonHover]}
-        onPressIn={() => setHover(true)}
-        onPressOut={() => setHover(false)}
-        onPress={click2}>
-        <Image
-          style={styles.clothStore2}
-          source={require("./assets/clothStore2.png")}
-        />
-        <Text style={styles.testUnderImg}>
-          S K L E P 2
-        </Text>
-      </TouchableOpacity>
-      <TouchableOpacity 
-        style={[styles.button3, styles.buttonHover]}
-        onPressIn={() => setHover(true)}
-        onPressOut={() => setHover(false)}
-        onPress={click3}>
-        <Image
-          style={styles.clothStore3}
-          source={require("./assets/clothStore3.png")}
-        />
-        <Text style={styles.testUnderImg}>
-          S K L E P 3
-        </Text>
-      </TouchableOpacity>
-      <StatusBar style="auto" />
+      <Header/>
+        <ScrollView>
+          <TouchableOpacity 
+            style={[styles.button, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore1.png")}
+            />
+            <View style={styles.backgroundText1}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 1
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button2, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click2}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore2.png")}
+            />
+            <View style={styles.backgroundText2}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 2
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button3, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click3}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore3.png")}
+            />
+            <View style={styles.backgroundText3}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 3
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button3, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click3}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore4.jpeg")}
+            />
+            <View style={styles.backgroundText4}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 4
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button3, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click3}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore5.jpeg")}
+            />
+            <View style={styles.backgroundText5}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 5
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button3, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click3}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore6.jpeg")}
+            />
+            <View style={styles.backgroundText6}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 6
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.button3, styles.buttonHover]}
+            onPressIn={() => setHover(true)}
+            onPressOut={() => setHover(false)}
+            onPress={click3}>
+            <Image
+              style={styles.clothStore}
+              source={require("./assets/clothStore7.jpeg")}
+            />
+            <View style={styles.backgroundText7}>
+              <Text style={styles.textUnderImg}>
+                S K L E P 7
+              </Text>
+            </View>
+          </TouchableOpacity>
+          <StatusBar style="auto" />
+      </ScrollView>
     </View>
   );
 }

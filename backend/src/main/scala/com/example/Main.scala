@@ -47,6 +47,7 @@ class HashActor extends Actor with ActorLogging {
 			log.info(s"doszlo tu hasz: ${hash}")
 			log.info(s"Dodaje uzytkownika ${email} do bazy danych...")
 			dataBase += (email -> hash)
+			log.info(s"Aktualna baza danych: ${dataBase}")
 			log.info("udalo sie wpisac hash i uzytkownika do bazy")
 			mainProg ! AuthenticationResult(success = true)
 			context.become(receive)
@@ -63,6 +64,7 @@ class HashActor extends Actor with ActorLogging {
 					log.info(s"uzytkownika ${email} nie ma w bazie danych, zarejestruj sie")
 					replyTo ! AuthenticationResult(success = false)
 			}
+			log.info(s"Aktualna baza danych: ${dataBase}")
 			context.become(receive)
 	}
 	private def hashPassword(email: String, password: String): String = {
@@ -135,6 +137,6 @@ def mainProg: Unit = {
 			}
 		}
 	
-	Http().newServerAt("0.0.0.0", 80).bind(route)
-	println(s"Server online at http://www.maplikacjaciek.xyz:80/")
+	Http().newServerAt("ip", 8080).bind(route)
+	println(s"Server online at http://ip:8080/")
 } 
