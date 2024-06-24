@@ -8,9 +8,20 @@ const Login = ({ onLogin }) => {
     const [ password, setPassword ] = useState('')
 
     const handleRegister = () => {
+        let regexPassword = /^(?=.*[A-Z])(?=.*[1-9]).{8,}.*$/
+        let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
         if (!email || !password) {
             console.log("prosze wprowadzic email i haslo")
-            Alert.alert("Proszę wprowadzić email i hasło")
+            alert("Proszę wprowadzić email i hasło")
+            return
+        } else if (!regexEmail.test(email)) {
+            console.log("prosze wprowadzic poprawny email")
+            alert("Prosze wprowadzic poprawny email")
+            return
+        } else if (!regexPassword.test(password)) {
+            console.log("Haslo musi zawierac conajmniej jedna cyfre, jedna wielka litere i posiadac wiecej niz 7 znakow")
+            alert("Haslo musi zawierac conajmniej jedna cyfre, jedna wielka litere i posiadac wiecej niz 7 znakow")
             return
         }
 
@@ -30,9 +41,20 @@ const Login = ({ onLogin }) => {
             })
     }
     const handleLogin = () => {
+        let regexPassword = /^(?=.*[A-Z])(?=.*[1-9]).{8,}.*$/
+        let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
         if (!email || !password) {
             console.log("prosze wprowadzic email i haslo")
             alert("Proszę wprowadzić email i hasło")
+            return
+        } else if (!regexEmail.test(email)) {
+            console.log("prosze wprowadzic poprawny email")
+            alert("Prosze wprowadzic poprawny email")
+            return
+        } else if (!regexPassword.test(password)) {
+            console.log("Haslo musi zawierac conajmniej jedna cyfre, jedna wielka litere i posiadac wiecej niz 7 znakow")
+            alert("Haslo musi zawierac conajmniej jedna cyfre, jedna wielka litere i posiadac wiecej niz 7 znakow")
             return
         }
 
@@ -41,7 +63,7 @@ const Login = ({ onLogin }) => {
             password: password
         }
         console.log("doszlo tu i chuj")
-        axios.post("http://192.168.3.126:8080/login", loginData)
+        axios.post("http://ip:8080/login", loginData)
             .then(response => {
                 console.log(response.data)
                 console.log("udalo sie kurwa")
@@ -71,8 +93,10 @@ const Login = ({ onLogin }) => {
                 onChangeText={setPassword}
                 secureTextEntry
             />
-            <Button title="Zarejestruj się" onPress={handleRegister} />
-            <Button title="Login" onPress={handleLogin} />
+            <View style={styles.buttons}>
+                <Button title="Zarejestruj się" onPress={handleRegister} />
+                <Button title="Login" onPress={handleLogin} />
+            </View>
         </View>
       );
 }

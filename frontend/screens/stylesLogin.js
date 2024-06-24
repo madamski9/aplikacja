@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
+      backgroundColor: 'white',
       flex: 1,
       justifyContent: 'center',
       padding: 16,
@@ -18,6 +19,14 @@ const styles = StyleSheet.create({
       marginBottom: 12,
       paddingLeft: 8,
     },
+    buttons: {
+      flexDirection: 'row',
+      justifyContent: 'space-between', // opcjonalnie, jeśli chcesz rozłożyć elementy równomiernie wzdłuż osi głównej
+      alignItems: 'center', 
+    },
+    zarejestruj: {
+      color: 'black'
+    }
 });
 
 export default styles;

@@ -49,7 +49,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Header/>
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
           <TouchableOpacity 
             style={[styles.button, styles.buttonHover]}
             onPressIn={() => setHover(true)}
