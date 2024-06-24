@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, Alert } from 'react-native';
+import { View, Text, TextInput, Button, Alert, TouchableOpacity } from 'react-native';
 import axios from 'axios'
 import styles from './stylesLogin.js'
 
@@ -62,11 +62,9 @@ const Login = ({ onLogin }) => {
             email: email,
             password: password
         }
-        console.log("doszlo tu i chuj")
         axios.post("http://ip:8080/login", loginData)
             .then(response => {
                 console.log(response.data)
-                console.log("udalo sie kurwa")
                 onLogin(email, password)
             })
             .catch(error => {
@@ -79,7 +77,7 @@ const Login = ({ onLogin }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Login</Text>
+            <Text style={styles.title}>Aplikacja maciek</Text>
             <TextInput
                 style={styles.input}
                 placeholder="Email"
@@ -94,8 +92,16 @@ const Login = ({ onLogin }) => {
                 secureTextEntry
             />
             <View style={styles.buttons}>
-                <Button title="Zarejestruj się" onPress={handleRegister} />
-                <Button title="Login" onPress={handleLogin} />
+                <TouchableOpacity onPress={handleRegister}>
+                    <Text style={styles.zarejestruj}>
+                        Zarejestruj się
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={handleLogin}>
+                    <Text style={styles.zaloguj}>
+                        Zaloguj sie
+                    </Text>
+                </TouchableOpacity>
             </View>
         </View>
       );

@@ -25,7 +25,16 @@ const styles = StyleSheet.create({
       alignItems: 'center', 
     },
     zarejestruj: {
-      color: 'black'
+      color: 'black',
+      fontSize: 17,
+      marginLeft: 10,
+      marginTop: 10
+    },
+    zaloguj: {
+      color: 'black',
+      fontSize: 17,
+      marginRight: 10,
+      marginTop: 10
     }
 });
 

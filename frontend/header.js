@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Alert, Animated } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const Header = () => {
+const Header = ({ onLogout }) => {
     const [ hover, setHover ] = useState(false);
     const [ isMenuOpen, setIsMenuOpen ] = useState(false)
     const [animation] = useState(new Animated.Value(0));
@@ -39,7 +39,7 @@ const Header = () => {
                             </Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={styles.middleSideMenuBar}>
+                    <View style={styles.middleLeftSideMenuBar}>
                         <TouchableOpacity
                             onPress={menuOpen}>
                             <Text>
@@ -47,12 +47,18 @@ const Header = () => {
                             </Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={styles.rightSideMenuBar}>
+                    <View style={styles.middleRightSideMenuBar}>
                         <TouchableOpacity
                             onPress={menuOpen}>
                             <Text>
                                 <Icon name="envelope" size={30} color="#000" />
                             </Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.rightSideMenuBar}>
+                        <TouchableOpacity
+                            onPress={onLogout}>
+                            <Text style={styles.exit} role="img" aria-label="exit">&#x238B;</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -117,14 +123,21 @@ const styles = StyleSheet.create({
         elevation: 5,
     },
     leftSideMenuBar: {
-        marginLeft: 60,
+        marginLeft: 40,
     },
-    middleSideMenuBar: {
+    middleLeftSideMenuBar: {
         flex: 1,
         alignItems: 'center'
     },
+    MiddleRightSideMenuBar: {
+        flex: 1,
+    },
     rightSideMenuBar: {
         flex: 1,
+        marginLeft: 40
+    },
+    exit: {
+        fontSize: 30
     }
 });
 

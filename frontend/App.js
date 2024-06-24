@@ -41,6 +41,27 @@ export default function App() {
         setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
       })
   }
+  const showConfirmAlert = () => {
+    Alert.alert(
+      "Wylogowanie",
+      "Czy na pewno chcesz się wylogować?",
+      [
+        {
+          text: "Nie",
+          onPress: () => console.log("Anulowano"),
+          style: "cancel"
+        },
+        { 
+          text: "Tak", 
+          onPress: () => handleLogout() 
+        }
+      ]
+    );
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false)
+  }
 
   if (!isLoggedIn) {
     return <Login onLogin={handleLogin} />;
@@ -48,7 +69,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Header/>
+      <Header onLogout={showConfirmAlert} />
         <ScrollView showsVerticalScrollIndicator={false}>
           <TouchableOpacity 
             style={[styles.button, styles.buttonHover]}

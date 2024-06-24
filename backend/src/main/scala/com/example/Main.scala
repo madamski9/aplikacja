@@ -31,14 +31,16 @@ case class RegistrationRequest(email: String, password: String)
 
 class HashActor extends Actor with ActorLogging {
 	var dataBase: Map[String, String] = Map.empty
+	var i: Int = 0
 	def receive: Receive = {
 		case UserLogin(email, password) =>
 			log.info(s"${self.path.name} received a message")
 			context.become(checkDataBase(email, password, sender()))
 			self ! UserLogin(email, password)
 		case UserRegister(email, password) =>
+			i += 1
 			log.info(s"${self.path.name} received a register message")
-			val hashed = context.actorOf(Props[HashingAlghoritm](), "hashed")
+			val hashed = context.actorOf(Props[HashingAlghoritm](), s"hashed$i")
 			hashed ! HashString(email, password)
 			context.become(receiveHash(sender()))
 	}
@@ -49,8 +51,8 @@ class HashActor extends Actor with ActorLogging {
 			dataBase += (email -> hash)
 			log.info(s"Aktualna baza danych: ${dataBase}")
 			log.info("udalo sie wpisac hash i uzytkownika do bazy")
-			mainProg ! AuthenticationResult(success = true)
 			context.become(receive)
+			mainProg ! AuthenticationResult(success = true)
 	}
 	def checkDataBase(email: String, password: String, replyTo: ActorRef): Receive = {
 		case UserLogin(email, password) => 
