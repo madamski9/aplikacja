@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
       flex: 1,
       justifyContent: 'center',
       padding: 16,
+
     },
     title: {
       fontSize: 24,
@@ -35,6 +36,9 @@ const styles = StyleSheet.create({
       fontSize: 17,
       marginRight: 10,
       marginTop: 10
+    },
+    box: {
+      marginBottom: 150
     }
 });
 

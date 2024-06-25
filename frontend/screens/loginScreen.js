@@ -69,7 +69,7 @@ const Login = ({ onLogin }) => {
             })
             .catch(error => {
                 //console.error("Login error:", error)
-                console.log("chuj error")
+                console.log("chuj error", error)
                 Alert.alert("Logowanie nie powiodlo sie, zarejestruj sie")
                 //setError("Logowanie nie powiodlo sie. Sprobuj ponownie")
             })
@@ -77,6 +77,7 @@ const Login = ({ onLogin }) => {
 
     return (
         <View style={styles.container}>
+        <View style={styles.box}>
             <Text style={styles.title}>Aplikacja maciek</Text>
             <TextInput
                 style={styles.input}
@@ -102,6 +103,7 @@ const Login = ({ onLogin }) => {
                         Zaloguj sie
                     </Text>
                 </TouchableOpacity>
+            </View>
             </View>
         </View>
       );

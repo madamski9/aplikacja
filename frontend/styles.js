@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
       shadowOpacity: 0.4,
       shadowRadius: 3,
       elevation: 5,
+      marginRight: 10,
+      marginLeft: 10
     },
     button2: {
       padding: 0,
@@ -39,6 +41,8 @@ const styles = StyleSheet.create({
       shadowOpacity: 0.4,
       shadowRadius: 3,
       elevation: 5,
+      marginRight: 10,
+      marginLeft: 10
     },
     button3: {
       padding: 0,
@@ -53,6 +57,8 @@ const styles = StyleSheet.create({
       shadowOpacity: 0.4,
       shadowRadius: 3,
       elevation: 5,
+      marginRight: 10,
+      marginLeft: 10
     },
     buttonHover: {
       backgroundColor: 'white',

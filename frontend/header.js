@@ -6,11 +6,11 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const Header = ({ onLogout }) => {
     const [ hover, setHover ] = useState(false);
     const [ isMenuOpen, setIsMenuOpen ] = useState(false)
-    const [animation] = useState(new Animated.Value(0));
 
     const menuOpen = () => {
         setIsMenuOpen(!isMenuOpen)
     };
+    
 
     return (
         <View style={styles.header}>
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     header: {
         backgroundColor: '#f0f0f0', 
         padding: 10,
-        paddingTop: 35, 
+        paddingTop: 40, 
         position: 'absolute',
         width: '100%',
         zIndex: 100,

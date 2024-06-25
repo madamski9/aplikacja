@@ -23,6 +23,7 @@
     "react": "18.2.0",
     "react-icons": "^5.2.1",
     "react-native": "0.74.2",
+    "react-native-easy-grid": "^0.2.2",
     "react-native-vector-icons": "^10.1.0",
     "react-router": "^6.24.0"
   },

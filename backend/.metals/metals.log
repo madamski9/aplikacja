@@ -3601,3 +3601,13 @@ WARNING: Unmatched cancel notification for request id 3298
 2024.06.25 00:54:01 INFO  time: compiled root in 1.28s
 2024.06.25 00:54:02 INFO  compiling root (1 scala source)
 2024.06.25 00:54:02 INFO  time: compiled root in 0.84s
+2024.06.25 14:18:59 INFO  compiling root (1 scala source)
+2024.06.25 14:18:59 INFO  time: compiled root in 0.61s
+2024.06.26 00:58:02 INFO  compiling root (1 scala source)
+2024.06.26 00:58:04 INFO  time: compiled root in 1.88s
+2024.06.26 00:58:06 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.26 00:58:06 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.26 00:58:06 INFO  compiling root (1 scala source)
+2024.06.26 00:58:06 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.26 00:58:06 WARN  Could not load snapshot text for /Users/macciek/studia/scala/portfolio/aplikacja/backend/src/main/scala/com/example/Main.scala
+2024.06.26 00:58:07 INFO  time: compiled root in 1.04s
